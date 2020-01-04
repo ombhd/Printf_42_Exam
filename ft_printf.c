@@ -17,7 +17,7 @@
 typedef struct s_fs
 {
 	char spec;
-	int	width;
+	int width;
 	int sign;
 	int precision;
 	int point;
