@@ -49,12 +49,7 @@ void	ft_putstr(char *s, t_fs *fs)
 			ft_putchar(*s++, 1, fs);
 }
 
-
-int		is_dig(char c)
-{
-	return (c >= '0' && c <= '9');
-}
-
+# define is_dig(c) (c >= '0' && c <= '9')
 
 int		ft_atoi(char *s)
 {
